@@ -1,0 +1,355 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --third-family: "Potta One", sans-serif;
+  --font3: "Baloo Da 2", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+/***** nav *****/
+#nav {
+  padding: 0 !important;
+}
+
+#nav ul li a {
+  padding: 18px 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 200%;
+  color: #353535;
+  position: relative;
+}
+
+#nav ul li a::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #353535;
+  left: 0;
+  bottom: 0;
+  transition: 0.5S
+}
+
+#nav ul li a:hover:before {
+  width: 100%;
+
+}
+
+.offcanvas ul li a {
+  padding: 18px 20px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 200%;
+  color: #353535;
+  position: relative;
+}
+
+.offcanvas ul li a::before {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #353535;
+  left: 0;
+  bottom: 0;
+  transition: 0.5S
+}
+
+.offcanvas ul li a:hover::before {
+  width: 50%;
+}
+
+/***** End nav *****/
+
+/***** banner *****/
+#banner .row {
+  align-items: center;
+  position: relative;
+}
+
+#banner .row .mouse_icon {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  position: absolute;
+  transform: translateY(800%);
+}
+
+#banner .row .col-xl-6 span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: #353535;
+}
+
+#banner .row .col-xl-6 h4 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 64px;
+  color: #353535;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+#banner .row .col-xl-6 p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+  /* margin-bottom: 53px; */
+}
+
+#banner .row .col-xl-6 .link_btn a:first-child span {
+  margin-left: 11px;
+  color: #fff;
+}
+
+#banner .row .col-xl-6 .link_btn a:first-child:hover span {
+  color: #fc0;
+}
+
+#banner .row .col-xl-6 .link_btn a:first-child {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  padding: 16px 45px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 20px;
+  color: #fff;
+  background: #fc0;
+  text-decoration: none;
+}
+
+#banner .row .col-xl-6 .link_btn a:first-child:hover {
+  color: #fc0;
+  background-color: transparent;
+  outline: 1px solid #fc0;
+}
+
+#banner .row .col-xl-6 .link_btn a:last-child span {
+  color: #353535;
+  margin-left: 11px;
+}
+
+#banner .row .col-xl-6 .link_btn a:last-child {
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+  padding: 16px 18px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: #353535;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 40px;
+}
+
+#banner .row .col-xl-6 .follow_icon {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+  margin-top: 48px;
+}
+
+#banner .row .col-xl-6 .follow_icon span {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 180%;
+  color: #353535;
+}
+
+#banner .row .col-xl-6 .follow_icon ul {
+  display: flex;
+  margin-bottom: 0;
+  line-height: 0;
+  list-style: none;
+  /* padding: 0 !important; */
+}
+
+#banner .row .col-xl-6 .follow_icon ul li a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f4f3f3;
+  color: #000;
+  line-height: 0;
+  border-radius: 50%;
+  margin: 0 8px;
+}
+
+#banner .mouse {
+  text-align: center;
+  margin: 25px 0;
+}
+
+/***** End banner *****/
+
+/***** about *****/
+#about {
+  background: linear-gradient(130deg, #fc0 0%, #fbf7ac 84.62%, #faffcb 100%, #faffcb 100%);
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#about .row {
+  align-items: center;
+}
+
+#about .row .col-xl-6 h4 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 50px;
+  color: #353535;
+}
+
+#about .row .col-xl-6 p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 190%;
+  color: #353535;
+  margin-top: 26px;
+  margin-bottom: 45px;
+}
+
+#about .row .col-xl-6 a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+  color: #353535;
+  text-decoration: none;
+  padding: 17px 43px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+#about .row .col-xl-6 a:hover {
+  text-decoration: underline;
+}
+
+#about .row .col-xl-6 .element {
+  display: flex;
+  justify-content: end;
+  transform: translate(15%, 35%);
+}
+
+/***** End about *****/
+
+/***** skils *****/
+#skils .row {
+  justify-content: center;
+}
+
+#skils .row .col-lg-4 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.103);
+  width: calc(33.33% - 32px);
+  margin: 0 16px;
+}
+
+#skils .row .col-lg-4 .contain {
+  text-align: center;
+}
+
+#skils .row .col-lg-4 .image {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#skils .row .col-lg-4 .contain h4 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 180%;
+  text-align: center;
+  color: #353535;
+  margin-top: 18px;
+}
+
+#skils .row .col-lg-4 .contain p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 190%;
+  text-align: center;
+  color: #7a7a7a;
+  margin-bottom: 45px;
+}
+
+/***** End skils *****/
+
+/***** barnding *****/
+#branding {
+  margin-top: 100px;
+}
+
+#branding .container {
+  background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+  border-radius: 30px;
+}
+
+#branding .row {
+  align-items: center;
+  justify-content: center;
+}
+
+#branding .row .contain {
+  padding: 83px 0 50px 70px;
+  align-items: center;
+}
+
+#branding .row .contain h4 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 44px;
+  color: #353535;
+}
+
+#branding .row .contain p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 190%;
+  color: #353535;
+  margin-top: 21px;
+  margin-bottom: 35px;
+}
+
+#branding .row .contain a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 180%;
+  text-align: center;
+  color: #353535;
+  text-decoration: none;
+  padding: 18px 38px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+#branding .row .contain img {
+  transform: translateY(-30px);
+  margin-left: 15px;
+}
+
+/***** End barnding *****/
+
+/***** help *****/
+
+
+/***** End help *****/

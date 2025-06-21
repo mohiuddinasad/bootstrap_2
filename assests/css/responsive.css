@@ -1,0 +1,78 @@
+@media (max-width: 992px) {
+    .offcanvas {
+        width: 80%;
+        max-width: 330px;
+    }
+
+    #nav {
+        padding: 15px 0 !important;
+    }
+
+    /***** banner *****/
+
+    #banner .row .col-xl-6 .link_btn a:last-child {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #banner h4 {
+        font-size: 40px;
+    }
+
+    #banner .row .col-xl-6 .follow_icon span {
+        white-space: nowrap;
+    }
+
+    #banner .row .col-xl-6 .follow_icon ul {
+        padding: 0 0 0 16px !important;
+    }
+
+    #banner .row .col-xl-6 .follow_icon ul li a {
+        margin: 0 6px !important;
+    }
+
+    #banner .row .col-xl-6 .follow_icon div {
+        display: block;
+    }
+
+    #banner .row .order-1 {
+        margin-bottom: 20px;
+    }
+
+    #banner .mouse {
+        display: none;
+    }
+
+    /***** End banner *****/
+    #about .row .order-2 .img {
+        transform: rotate(90deg) !important;
+    }
+
+    #about .row .col-xl-6 .element {
+        display: none;
+    }
+
+    /***** skils *****/
+    #skils .row .col-lg-4 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /***** End skils *****/
+    /***** branding *****/
+    #branding{
+        padding: 50px 0;
+    }
+    #branding .container{
+        padding-top: 20px;
+    }
+    #branding .row{
+        justify-content: center;
+    }
+    #branding .row .contain{
+        padding: 0 10px;
+    }
+    /***** End branding *****/
+
+
+}
